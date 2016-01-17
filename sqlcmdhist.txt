@@ -1,0 +1,5 @@
+UPDATE  share
+SET month='January', installment='Yes'
+WHERE Amount= 31998;
+
+INSERT INTO  period (start, end, year) VALUES ("January", "December",2016);
